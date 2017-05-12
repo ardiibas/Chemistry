@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
         adapter.addFragment(new TileFragment(), "Kalkulator");
-        adapter.addFragment(new TileFragment(), "Kosong");
+        adapter.addFragment(new CardFragment(), "Materi");
         viewPager.setAdapter(adapter);
     }
 
