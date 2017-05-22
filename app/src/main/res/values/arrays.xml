@@ -91,4 +91,14 @@
         <!--<item>@drawable/e</item>-->
         <!--<item>@drawable/f</item>-->
     </array>
+
+    <array name="picture_kal">
+        <item>@drawable/ic_kal_ph</item>
+        <item>@drawable/ic_kal_poh</item>
+    </array>
+
+    <array name="nama_kal">
+        <item>Kalkulator pH</item>
+        <item>Kalkulator pOH</item>
+    </array>
 </resources>

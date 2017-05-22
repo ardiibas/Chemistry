@@ -60,8 +60,8 @@ public class TileFragment extends Fragment {
 
         public ContentAdapter(Context context){
             Resources resources = context.getResources();
-            mTitle = resources.getStringArray(R.array.places);
-            TypedArray typedArray = resources.obtainTypedArray(R.array.places_picture);
+            mTitle = resources.getStringArray(R.array.nama_kal);
+            TypedArray typedArray = resources.obtainTypedArray(R.array.picture_kal);
             mPicture = new Drawable[typedArray.length()];
             for (int i = 0; i < mPicture.length; i++){
                 mPicture[i] = typedArray.getDrawable(i);
